@@ -1,12 +1,20 @@
 {
-  "name": "CommerceDynamics",
+  "name": "commerce-dynamic-coding-challenge",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
+    "dev-server": "live-server",
+    "watch:sass": "node-sass sass/main.scss css/style.css --watch",
+    "start": "concurrently \"yarn run dev-server\" \"yarn run watch:sass\"",
+    "compile:sass": "node-sass sass/main.scss css/style.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^4.11.0"
+  }
 }

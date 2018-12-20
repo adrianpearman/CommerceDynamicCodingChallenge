@@ -1,0 +1,48 @@
+.header{
+    background-color: $DarkGrey2;
+    color: $White;
+    overflow: hidden;
+
+    .logo{
+        display: inline-block;
+        padding: 2rem;
+        h1{
+            font-size: 2.6rem;
+            text-transform: uppercase;
+        }
+    }
+
+    .navigation{
+        display: inline-block;
+        float: right;
+        ul{
+            display: inline-block;
+            li{
+                display: inline-block;
+                padding: 1rem;
+                font-weight: 600;
+                a{
+                    color: $White;
+                }
+            }
+        }
+
+        .user-login,
+        .user-search{
+            padding: 2rem;
+        }
+
+        .user-login{
+            display: inline-block;
+            border-right: 1px solid $LightGrey;
+            h2{
+                font-size: $DefaultFont;
+                font-weight: 400;
+            }
+        }
+
+        .user-search{
+            display: inline-block;
+        }
+    }
+}

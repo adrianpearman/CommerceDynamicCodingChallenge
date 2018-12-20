@@ -1,0 +1,120 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #333333; }
+
+ul, h1, h2, h3, h4, h5, p {
+  margin: 0;
+  padding: 0; }
+
+.emphasize {
+  font-weight: 600; }
+
+.btn-submit {
+  color: white;
+  background: #E63846;
+  width: 100%; }
+
+.header {
+  background-color: #333333;
+  color: #ffffff;
+  overflow: hidden; }
+  .header .logo {
+    display: inline-block;
+    padding: 2rem; }
+    .header .logo h1 {
+      font-size: 2.6rem;
+      text-transform: uppercase; }
+  .header .navigation {
+    display: inline-block;
+    float: right; }
+    .header .navigation ul {
+      display: inline-block; }
+      .header .navigation ul li {
+        display: inline-block;
+        padding: 1rem;
+        font-weight: 600; }
+        .header .navigation ul li a {
+          color: #ffffff; }
+    .header .navigation .user-login,
+    .header .navigation .user-search {
+      padding: 2rem; }
+    .header .navigation .user-login {
+      display: inline-block;
+      border-right: 1px solid #F8F8F8; }
+      .header .navigation .user-login h2 {
+        font-size: 1.6rem;
+        font-weight: 400; }
+    .header .navigation .user-search {
+      display: inline-block; }
+
+.section-hero {
+  width: 98%;
+  height: 40vh;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: relative; }
+  .section-hero .hero__car-specs {
+    position: absolute;
+    bottom: 1rem;
+    color: #F8F8F8;
+    margin-bottom: 1rem; }
+    .section-hero .hero__car-specs h1 {
+      font-size: 3rem;
+      font-weight: 600;
+      padding: 1rem 2rem; }
+    .section-hero .hero__car-specs h2 {
+      font-size: 2rem;
+      padding: 0.6rem 2rem;
+      font-weight: 400; }
+      .section-hero .hero__car-specs h2 .emphasize {
+        font-weight: 600; }
+
+.section-search-input {
+  width: 95%;
+  margin: 0 auto;
+  background-color: #F8F8F8; }
+  .section-search-input form {
+    margin-top: 5rem;
+    padding: 2rem 0; }
+    .section-search-input form .search-item-container {
+      width: 49%;
+      display: inline-block; }
+      .section-search-input form .search-item-container input {
+        width: 90%;
+        margin: 1rem;
+        padding: 1rem; }
+      .section-search-input form .search-item-container button {
+        width: 90%;
+        margin: 1rem;
+        padding: 1rem;
+        text-transform: uppercase;
+        font-weight: 600; }
+        .section-search-input form .search-item-container button::hover {
+          color: #ffffff; }
+
+.section-metrics {
+  width: 98%;
+  margin: 3rem auto;
+  background-color: #F8F8F8; }
+  .section-metrics .metrics__information-container {
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    padding: 6rem 0; }
+    .section-metrics .metrics__information-container h2 {
+      font-weight: 800;
+      font-size: 3.5rem;
+      margin-bottom: 1rem; }
+    .section-metrics .metrics__information-container p {
+      color: #454545; }
