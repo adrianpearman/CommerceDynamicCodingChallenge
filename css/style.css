@@ -20,6 +20,9 @@ ul, h1, h2, h3, h4, h5, p {
 .emphasize {
   font-weight: 600; }
 
+.hidden {
+  display: none; }
+
 .btn-submit {
   color: white;
   background: #E63846;
@@ -32,7 +35,7 @@ ul, h1, h2, h3, h4, h5, p {
   width: 25%;
   display: inline-block;
   margin: 0 2rem;
-  box-shadow: 0 0.5rem 2rem lightgrey;
+  box-shadow: 0 0.5rem 2rem #dfdede;
   border-radius: 1rem; }
   .car-news__news-item .image {
     width: 100%; }
@@ -41,7 +44,7 @@ ul, h1, h2, h3, h4, h5, p {
   .car-news__news-item .content {
     width: 100%;
     padding: 2rem 0;
-    border-bottom: 1px solid lightgray; }
+    border-bottom: 1px solid #dfdede; }
     .car-news__news-item .content-title {
       margin-bottom: 2rem 0;
       font-size: 1.5rem; }
@@ -53,14 +56,40 @@ ul, h1, h2, h3, h4, h5, p {
     padding: 2rem;
     text-align: center; }
 
-.results__container {
+.results__list-item {
   width: 30%;
-  margin: 1rem; }
+  margin: 1rem;
+  display: inline-block;
+  box-shadow: 0 0.4rem 0.4rem #dfdede; }
 
 .results__image-container {
-  width: 100%; }
+  width: 100%;
+  position: relative; }
   .results__image-container img {
     width: 100%; }
+
+.results__image-price {
+  position: absolute;
+  bottom: 1rem;
+  left: 1.5rem;
+  color: #dfdede; }
+
+.results__content-container {
+  padding: 1rem; }
+  .results__content-container p {
+    font-size: 1.4rem;
+    padding: 0.2rem 0; }
+
+.results__content-title {
+  font-size: 2rem;
+  padding: 1rem 0; }
+
+.icon {
+  margin-right: 2rem; }
+
+#tachometer {
+  width: 2.2rem;
+  height: auto; }
 
 .footer {
   background-color: #2B2B2B;
@@ -108,7 +137,7 @@ ul, h1, h2, h3, h4, h5, p {
       padding: 1rem 1.5rem;
       font-size: 1.4rem; }
   .footer__copyright {
-    color: #F8F8F8;
+    color: #dfdede;
     padding: 2rem; }
 
 .header {
@@ -137,7 +166,7 @@ ul, h1, h2, h3, h4, h5, p {
       padding: 2rem; }
     .header .navigation .user-login {
       display: inline-block;
-      border-right: 1px solid #F8F8F8; }
+      border-right: 1px solid #dfdede; }
       .header .navigation .user-login h2 {
         font-size: 1.6rem;
         font-weight: 400; }
@@ -156,7 +185,7 @@ ul, h1, h2, h3, h4, h5, p {
   .section-hero .hero__car-specs {
     position: absolute;
     bottom: 1rem;
-    color: #F8F8F8;
+    color: #dfdede;
     margin-bottom: 1rem; }
     .section-hero .hero__car-specs h1 {
       font-size: 3rem;
@@ -172,7 +201,7 @@ ul, h1, h2, h3, h4, h5, p {
 .section-search-input {
   width: 95%;
   margin: 0 auto;
-  background-color: #F8F8F8; }
+  background-color: #dfdede; }
   .section-search-input form {
     margin-top: 5rem;
     padding: 2rem 0; }
@@ -195,7 +224,7 @@ ul, h1, h2, h3, h4, h5, p {
 .section-metrics {
   width: 98%;
   margin: 3rem auto;
-  background-color: #F8F8F8; }
+  background-color: #dfdede; }
   .section-metrics .metrics__information-container {
     display: inline-block;
     width: 24%;

@@ -1,11 +1,52 @@
-.results__container{
-    width: 30%;
-    margin: 1rem;
-}
+.results{
+    &__list-item{
+        width: 30%;
+        margin: 1rem;
+        display: inline-block;
+        box-shadow: 0 0.4rem 0.4rem $LightGrey
+    }
 
-.results__image-container{
-    width: 100%;
-    img{
+    &__image-container{
         width: 100%;
+        position: relative;
+        img{
+            width: 100%;
+        }
+    }
+
+    &__image-price{
+        position: absolute;
+        bottom: 1rem;
+        left: 1.5rem;
+        color: $LightGrey;
+    }
+
+    &__content{
+        &-container{
+            padding: 1rem;
+            p {
+                font-size: 1.4rem;
+                padding: 0.2rem 0;
+            }
+        }
+        &-title{
+            font-size: 2rem;
+            padding: 1rem 0;
+        }
     }
 }
+
+.icon{
+    margin-right: 2rem;
+}
+
+
+#tachometer {
+    width: 2.2rem;
+    height: auto;
+}
+
+
+
+
+
