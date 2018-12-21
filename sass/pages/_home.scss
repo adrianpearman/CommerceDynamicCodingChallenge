@@ -11,7 +11,7 @@
     .hero__car-specs{
         position: absolute;
         bottom: 1rem;
-        color: $LightGrey;
+        color: $LightGrey1;
         margin-bottom: 1rem;
         h1{
             font-size: 3rem;
@@ -32,23 +32,25 @@
 .section-search-input{
     width: 95%;
     margin: 0 auto;
-    background-color: $LightGrey;
+    background-color: $LightGrey1;
 
     form{
         margin-top: 5rem;
         padding: 2rem 0;
 
         .search-item-container {
+            text-align: center;
             width: 49%;
             display: inline-block;
     
             input{
-                width: 90%;
+                width: 98%;
                 margin: 1rem;
                 padding: 1rem;
+                font-size: 1.3rem;
             }
             button{
-                width: 90%;
+                width: 98%;
                 margin: 1rem;
                 padding: 1rem; 
                 text-transform: uppercase;
@@ -65,7 +67,7 @@
 .section-metrics{
     width: 98%;
     margin: 3rem auto;
-    background-color: $LightGrey;
+    background-color: $LightGrey1;
 
     .metrics__information-container{
         display: inline-block;
@@ -83,6 +85,11 @@
             color: lighten($DarkGrey1, 0.2);
         }
     }
+}
+
+.section-results{
+    width: 98%;
+    margin: 3rem auto;
 }
 
 .section-car-news{

@@ -1,9 +1,16 @@
 .results{
+    &__button-container {
+        text-align: right;
+        padding: 1rem 2rem;
+    }
+    &__list{
+        margin-left: 2rem;
+    }
     &__list-item{
         width: 30%;
-        margin: 1rem;
+        margin: 1.7rem;
         display: inline-block;
-        box-shadow: 0 0.4rem 0.4rem $LightGrey
+        box-shadow: 0 0.4rem 0.4rem $LightGrey1
     }
 
     &__image-container{
@@ -18,7 +25,7 @@
         position: absolute;
         bottom: 1rem;
         left: 1.5rem;
-        color: $LightGrey;
+        color: $LightGrey1;
     }
 
     &__content{
@@ -26,7 +33,7 @@
             padding: 1rem;
             p {
                 font-size: 1.4rem;
-                padding: 0.2rem 0;
+                padding: 0.3rem 0;
             }
         }
         &-title{

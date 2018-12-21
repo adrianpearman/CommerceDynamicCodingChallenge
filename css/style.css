@@ -23,8 +23,19 @@ ul, h1, h2, h3, h4, h5, p {
 .hidden {
   display: none; }
 
+.inline-block {
+  display: inline-block; }
+
+.btn-control {
+  background-color: #eeeeee;
+  display: inline-block;
+  padding: 1rem;
+  margin: 0.2rem;
+  border: 1px solid #bebebe;
+  color: #333333; }
+
 .btn-submit {
-  color: white;
+  color: #ffffff;
   background: #E63846;
   width: 100%; }
 
@@ -35,7 +46,7 @@ ul, h1, h2, h3, h4, h5, p {
   width: 25%;
   display: inline-block;
   margin: 0 2rem;
-  box-shadow: 0 0.5rem 2rem #dfdede;
+  box-shadow: 0 0.5rem 2rem #eeeeee;
   border-radius: 1rem; }
   .car-news__news-item .image {
     width: 100%; }
@@ -44,7 +55,7 @@ ul, h1, h2, h3, h4, h5, p {
   .car-news__news-item .content {
     width: 100%;
     padding: 2rem 0;
-    border-bottom: 1px solid #dfdede; }
+    border-bottom: 1px solid #eeeeee; }
     .car-news__news-item .content-title {
       margin-bottom: 2rem 0;
       font-size: 1.5rem; }
@@ -56,11 +67,18 @@ ul, h1, h2, h3, h4, h5, p {
     padding: 2rem;
     text-align: center; }
 
+.results__button-container {
+  text-align: right;
+  padding: 1rem 2rem; }
+
+.results__list {
+  margin-left: 2rem; }
+
 .results__list-item {
   width: 30%;
-  margin: 1rem;
+  margin: 1.7rem;
   display: inline-block;
-  box-shadow: 0 0.4rem 0.4rem #dfdede; }
+  box-shadow: 0 0.4rem 0.4rem #eeeeee; }
 
 .results__image-container {
   width: 100%;
@@ -72,13 +90,13 @@ ul, h1, h2, h3, h4, h5, p {
   position: absolute;
   bottom: 1rem;
   left: 1.5rem;
-  color: #dfdede; }
+  color: #eeeeee; }
 
 .results__content-container {
   padding: 1rem; }
   .results__content-container p {
     font-size: 1.4rem;
-    padding: 0.2rem 0; }
+    padding: 0.3rem 0; }
 
 .results__content-title {
   font-size: 2rem;
@@ -101,12 +119,14 @@ ul, h1, h2, h3, h4, h5, p {
       display: inline-block;
       vertical-align: top;
       padding: 3rem; }
+      .footer__contact-info--address .email, .footer__contact-info--hours .email, .footer__contact-info--subscribe .email {
+        padding: 1rem; }
       .footer__contact-info--address .title, .footer__contact-info--hours .title, .footer__contact-info--subscribe .title {
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 800;
         padding: 1rem; }
     .footer__contact-info--address .contact--details p {
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       margin: 0.5rem 1rem; }
     .footer__contact-info--address .contact--details a {
       color: #ffffff; }
@@ -132,12 +152,13 @@ ul, h1, h2, h3, h4, h5, p {
       width: 25%;
       margin-left: -6px; }
     .footer__contact-info--subscribe p {
-      margin: 1rem; }
+      margin: 1rem;
+      font-size: 1.3rem; }
     .footer__contact-info--subscribe .btn {
       padding: 1rem 1.5rem;
       font-size: 1.4rem; }
   .footer__copyright {
-    color: #dfdede;
+    color: #eeeeee;
     padding: 2rem; }
 
 .header {
@@ -166,7 +187,7 @@ ul, h1, h2, h3, h4, h5, p {
       padding: 2rem; }
     .header .navigation .user-login {
       display: inline-block;
-      border-right: 1px solid #dfdede; }
+      border-right: 1px solid #eeeeee; }
       .header .navigation .user-login h2 {
         font-size: 1.6rem;
         font-weight: 400; }
@@ -185,7 +206,7 @@ ul, h1, h2, h3, h4, h5, p {
   .section-hero .hero__car-specs {
     position: absolute;
     bottom: 1rem;
-    color: #dfdede;
+    color: #eeeeee;
     margin-bottom: 1rem; }
     .section-hero .hero__car-specs h1 {
       font-size: 3rem;
@@ -201,19 +222,21 @@ ul, h1, h2, h3, h4, h5, p {
 .section-search-input {
   width: 95%;
   margin: 0 auto;
-  background-color: #dfdede; }
+  background-color: #eeeeee; }
   .section-search-input form {
     margin-top: 5rem;
     padding: 2rem 0; }
     .section-search-input form .search-item-container {
+      text-align: center;
       width: 49%;
       display: inline-block; }
       .section-search-input form .search-item-container input {
-        width: 90%;
+        width: 98%;
         margin: 1rem;
-        padding: 1rem; }
+        padding: 1rem;
+        font-size: 1.3rem; }
       .section-search-input form .search-item-container button {
-        width: 90%;
+        width: 98%;
         margin: 1rem;
         padding: 1rem;
         text-transform: uppercase;
@@ -224,7 +247,7 @@ ul, h1, h2, h3, h4, h5, p {
 .section-metrics {
   width: 98%;
   margin: 3rem auto;
-  background-color: #dfdede; }
+  background-color: #eeeeee; }
   .section-metrics .metrics__information-container {
     display: inline-block;
     width: 24%;
@@ -236,6 +259,10 @@ ul, h1, h2, h3, h4, h5, p {
       margin-bottom: 1rem; }
     .section-metrics .metrics__information-container p {
       color: #454545; }
+
+.section-results {
+  width: 98%;
+  margin: 3rem auto; }
 
 .section-car-news {
   margin: 3rem auto; }

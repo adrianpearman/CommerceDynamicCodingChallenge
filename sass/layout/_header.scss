@@ -1,6 +1,6 @@
 .header{
     background-color: $DarkGrey2;
-    color: $White;
+    color: $LightGrey3;
     overflow: hidden;
 
     .logo{
@@ -34,7 +34,7 @@
 
         .user-login{
             display: inline-block;
-            border-right: 1px solid $LightGrey;
+            border-right: 1px solid $LightGrey1;
             h2{
                 font-size: $DefaultFont;
                 font-weight: 400;
