@@ -26,6 +26,9 @@ ul, h1, h2, h3, h4, h5, p {
 .inline-block {
   display: inline-block; }
 
+#menu {
+  width: 1.5rem; }
+
 .btn-control {
   background-color: #eeeeee;
   display: inline-block;
@@ -66,6 +69,21 @@ ul, h1, h2, h3, h4, h5, p {
   .car-news__news-item .author {
     padding: 2rem;
     text-align: center; }
+
+.results__pagination {
+  text-align: center;
+  margin: 2rem 0 8rem 0; }
+
+.page {
+  color: #2B2B2B;
+  display: inline-block;
+  background-color: #eeeeee;
+  padding: 0.9rem 2rem;
+  margin: 0.5rem;
+  border-radius: 0.3rem; }
+
+#non-active {
+  background-color: transparent; }
 
 .results__button-container {
   text-align: right;
@@ -133,6 +151,14 @@ ul, h1, h2, h3, h4, h5, p {
       .footer__contact-info--address .contact--details a:hover {
         color: #ffffff;
         text-decoration: none; }
+    .footer__contact-info--address .contact-socials-list {
+      padding: 1rem; }
+    .footer__contact-info--address .contact-socials {
+      display: inline-block;
+      background-color: #707070;
+      padding: 1rem;
+      margin: 0.2rem 0.5rem;
+      font-size: 2rem; }
     .footer__contact-info--hours .hours-list {
       list-style: none; }
       .footer__contact-info--hours .hours-list li {
@@ -146,7 +172,8 @@ ul, h1, h2, h3, h4, h5, p {
       width: 65%;
       padding: 1rem;
       border-width: 0px;
-      vertical-align: top; }
+      vertical-align: top;
+      font-size: 1.3rem; }
     .footer__contact-info--subscribe button {
       display: inline-block;
       width: 25%;
@@ -156,14 +183,16 @@ ul, h1, h2, h3, h4, h5, p {
       font-size: 1.3rem; }
     .footer__contact-info--subscribe .btn {
       padding: 1rem 1.5rem;
-      font-size: 1.4rem; }
+      font-size: 1.2rem; }
   .footer__copyright {
-    color: #eeeeee;
-    padding: 2rem; }
+    color: #bebebe;
+    padding: 2rem;
+    font-size: 1.3rem;
+    margin-left: 2rem; }
 
 .header {
   background-color: #333333;
-  color: #ffffff;
+  color: #bebebe;
   overflow: hidden; }
   .header .logo {
     display: inline-block;
@@ -181,7 +210,7 @@ ul, h1, h2, h3, h4, h5, p {
         padding: 1rem;
         font-weight: 600; }
         .header .navigation ul li a {
-          color: #ffffff; }
+          color: #bebebe; }
     .header .navigation .user-login,
     .header .navigation .user-search {
       padding: 2rem; }
