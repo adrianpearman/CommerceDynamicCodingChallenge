@@ -1,8 +1,11 @@
 .section-hero{
     width: 98%;
-    height: 40vh;
+    height: 50vh;
     margin: 0 auto;
-    background-color: rgba(black, 0.5);
+    background-image: linear-gradient(rgba($Black, 0.5), rgba($Black, 0.5)), url('https://st.motortrend.ca/uploads/sites/42/2014/03/2015-BMW-X4-front-three-quarters-in-motion.jpg');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center;
     position: relative;
 
     .hero__car-specs{
@@ -79,5 +82,30 @@
         p{
             color: lighten($DarkGrey1, 0.2);
         }
+    }
+}
+
+.section-car-news{
+    margin: 3rem auto;
+    h2{
+        font-weight: 700;
+        font-size: 2rem;
+        text-align: center;
+        display: block;
+        margin-bottom: 2rem;
+    }
+}
+
+.section-submit-your-vechile{
+    margin: 6rem auto 10rem auto;
+
+    .btn-vechile{
+        padding: 1rem;
+        color: $DarkRed;
+        border: 0.2rem solid $DarkRed;
+        text-transform: uppercase;
+        font-weight: 800;
+        margin: 0 auto;
+        display: block;
     }
 }

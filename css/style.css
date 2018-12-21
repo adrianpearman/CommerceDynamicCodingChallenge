@@ -25,6 +25,92 @@ ul, h1, h2, h3, h4, h5, p {
   background: #E63846;
   width: 100%; }
 
+.car-news__news-list {
+  text-align: center; }
+
+.car-news__news-item {
+  width: 25%;
+  display: inline-block;
+  margin: 0 2rem;
+  box-shadow: 0 0.5rem 2rem lightgrey;
+  border-radius: 1rem; }
+  .car-news__news-item .image {
+    width: 100%; }
+    .car-news__news-item .image img {
+      width: 100%; }
+  .car-news__news-item .content {
+    width: 100%;
+    padding: 2rem 0;
+    border-bottom: 1px solid lightgray; }
+    .car-news__news-item .content-title {
+      margin-bottom: 2rem 0;
+      font-size: 1.5rem; }
+    .car-news__news-item .content-description {
+      margin: 0 auto;
+      width: 80%;
+      text-align: center; }
+  .car-news__news-item .author {
+    padding: 2rem;
+    text-align: center; }
+
+.results__container {
+  width: 30%;
+  margin: 1rem; }
+
+.results__image-container {
+  width: 100%; }
+  .results__image-container img {
+    width: 100%; }
+
+.footer {
+  background-color: #2B2B2B;
+  color: #ffffff; }
+  .footer__contact-info {
+    background-color: #444444; }
+    .footer__contact-info--address, .footer__contact-info--hours, .footer__contact-info--subscribe {
+      width: 33%;
+      display: inline-block;
+      vertical-align: top;
+      padding: 3rem; }
+      .footer__contact-info--address .title, .footer__contact-info--hours .title, .footer__contact-info--subscribe .title {
+        font-size: 3rem;
+        font-weight: 800;
+        padding: 1rem; }
+    .footer__contact-info--address .contact--details p {
+      font-size: 1.5rem;
+      margin: 0.5rem 1rem; }
+    .footer__contact-info--address .contact--details a {
+      color: #ffffff; }
+      .footer__contact-info--address .contact--details a:hover {
+        color: #ffffff;
+        text-decoration: none; }
+    .footer__contact-info--hours .hours-list {
+      list-style: none; }
+      .footer__contact-info--hours .hours-list li {
+        padding: 1rem;
+        font-size: 1.3rem;
+        font-weight: 600; }
+      .footer__contact-info--hours .hours-list .right {
+        float: right; }
+    .footer__contact-info--subscribe input {
+      display: inline-block;
+      width: 65%;
+      padding: 1rem;
+      border-width: 0px;
+      vertical-align: top; }
+    .footer__contact-info--subscribe button {
+      display: inline-block;
+      width: 25%;
+      margin-left: -6px; }
+    .footer__contact-info--subscribe p {
+      margin: 1rem; }
+    .footer__contact-info--subscribe .btn {
+      padding: 1rem 1.5rem;
+      font-size: 1.4rem; }
+  .footer__copyright {
+    color: #F8F8F8;
+    padding: 2rem; }
+
 .header {
   background-color: #333333;
   color: #ffffff;
@@ -60,9 +146,12 @@ ul, h1, h2, h3, h4, h5, p {
 
 .section-hero {
   width: 98%;
-  height: 40vh;
+  height: 50vh;
   margin: 0 auto;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://st.motortrend.ca/uploads/sites/42/2014/03/2015-BMW-X4-front-three-quarters-in-motion.jpg");
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
   position: relative; }
   .section-hero .hero__car-specs {
     position: absolute;
@@ -118,3 +207,23 @@ ul, h1, h2, h3, h4, h5, p {
       margin-bottom: 1rem; }
     .section-metrics .metrics__information-container p {
       color: #454545; }
+
+.section-car-news {
+  margin: 3rem auto; }
+  .section-car-news h2 {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 2rem; }
+
+.section-submit-your-vechile {
+  margin: 6rem auto 10rem auto; }
+  .section-submit-your-vechile .btn-vechile {
+    padding: 1rem;
+    color: #E63846;
+    border: 0.2rem solid #E63846;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin: 0 auto;
+    display: block; }
