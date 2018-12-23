@@ -51,6 +51,19 @@ ul, h1, h2, h3, h4, h5, p {
   margin: 0 2rem;
   box-shadow: 0 0.5rem 2rem #eeeeee;
   border-radius: 1rem; }
+  @media (max-width: 48em) {
+    .car-news__news-item {
+      width: 35%; } }
+  @media (max-width: 37.5em) {
+    .car-news__news-item {
+      width: 70%;
+      text-align: center;
+      margin: 2rem auto; } }
+  @media (max-width: 26.6em) {
+    .car-news__news-item {
+      width: 90%;
+      text-align: center;
+      margin: 2rem auto; } }
   .car-news__news-item .image {
     width: 100%; }
     .car-news__news-item .image img {
@@ -93,10 +106,22 @@ ul, h1, h2, h3, h4, h5, p {
   margin-left: 2rem; }
 
 .results__list-item {
-  width: 30%;
+  width: 29%;
   margin: 1.7rem;
   display: inline-block;
   box-shadow: 0 0.4rem 0.4rem #eeeeee; }
+  @media (max-width: 56.25em) {
+    .results__list-item {
+      width: 45%; } }
+  @media (max-width: 48em) {
+    .results__list-item {
+      margin: 1.3rem; } }
+  @media (max-width: 37.5em) {
+    .results__list-item {
+      margin: 1rem; } }
+  @media (max-width: 26.6em) {
+    .results__list-item {
+      width: 90%; } }
 
 .results__image-container {
   width: 100%;
@@ -117,7 +142,7 @@ ul, h1, h2, h3, h4, h5, p {
     padding: 0.3rem 0; }
 
 .results__content-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding: 1rem 0; }
 
 .icon {
@@ -137,6 +162,14 @@ ul, h1, h2, h3, h4, h5, p {
       display: inline-block;
       vertical-align: top;
       padding: 3rem; }
+      @media (max-width: 56.25em) {
+        .footer__contact-info--address, .footer__contact-info--hours, .footer__contact-info--subscribe {
+          padding: 2rem;
+          width: 49%; } }
+      @media (max-width: 37.5em) {
+        .footer__contact-info--address, .footer__contact-info--hours, .footer__contact-info--subscribe {
+          width: 90%;
+          margin: 0 auto; } }
       .footer__contact-info--address .email, .footer__contact-info--hours .email, .footer__contact-info--subscribe .email {
         padding: 1rem; }
       .footer__contact-info--address .title, .footer__contact-info--hours .title, .footer__contact-info--subscribe .title {
@@ -174,16 +207,27 @@ ul, h1, h2, h3, h4, h5, p {
       border-width: 0px;
       vertical-align: top;
       font-size: 1.3rem; }
+      @media (max-width: 75em) {
+        .footer__contact-info--subscribe input {
+          width: 55%;
+          padding: 0.5rem;
+          font-size: 1rem; } }
     .footer__contact-info--subscribe button {
       display: inline-block;
       width: 25%;
       margin-left: -6px; }
+      @media (max-width: 75em) {
+        .footer__contact-info--subscribe button {
+          width: 30%; } }
     .footer__contact-info--subscribe p {
       margin: 1rem;
       font-size: 1.3rem; }
     .footer__contact-info--subscribe .btn {
       padding: 1rem 1.5rem;
       font-size: 1.2rem; }
+      @media (max-width: 75em) {
+        .footer__contact-info--subscribe .btn {
+          padding: 0.3rem; } }
   .footer__copyright {
     color: #bebebe;
     padding: 2rem;
@@ -282,12 +326,28 @@ ul, h1, h2, h3, h4, h5, p {
     width: 24%;
     text-align: center;
     padding: 6rem 0; }
+    @media (max-width: 37.5em) {
+      .section-metrics .metrics__information-container {
+        width: 49%;
+        padding: 2rem 0; } }
+    @media (max-width: 26.6em) {
+      .section-metrics .metrics__information-container {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 2rem 0; } }
     .section-metrics .metrics__information-container h2 {
       font-weight: 800;
       font-size: 3.5rem;
       margin-bottom: 1rem; }
+      @media (max-width: 48em) {
+        .section-metrics .metrics__information-container h2 {
+          font-size: 3rem; } }
     .section-metrics .metrics__information-container p {
       color: #454545; }
+      @media (max-width: 48em) {
+        .section-metrics .metrics__information-container p {
+          font-size: 1.3rem; } }
 
 .section-results {
   width: 98%;

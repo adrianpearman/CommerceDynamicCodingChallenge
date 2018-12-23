@@ -13,6 +13,16 @@
             vertical-align: top;
             padding: 3rem;
 
+            @include respond(tab-land) {
+                padding: 2rem;
+                width: 49%;
+            }
+
+            @include respond(phone) {
+                width: 90%;
+                margin: 0 auto;
+            }
+
             .email{
                 padding: 1rem;
             }
@@ -78,11 +88,21 @@
                 border-width: 0px;
                 vertical-align: top;
                 font-size: 1.3rem;
+
+                @include respond(small-desktop) {
+                    width: 55%;
+                    padding: 0.5rem;
+                    font-size: 1rem;
+                }
             }
             button{
                 display: inline-block;
                 width: 25%;
                 margin-left: -6px;
+
+                @include respond(small-desktop) {
+                    width: 30%;
+                }
             }
             p{
                 margin: 1rem;
@@ -91,6 +111,10 @@
             .btn{
                 padding: 1rem 1.5rem;
                 font-size: 1.2rem;
+
+                @include respond(small-desktop) {
+                    padding: 0.3rem;
+                }
             }
         }
     }

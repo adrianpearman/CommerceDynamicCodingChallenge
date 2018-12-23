@@ -75,14 +75,36 @@
         text-align: center;
         padding: 6rem 0;
 
+        @include respond(tab-land) {
+            // width: 45%;
+        }
+
+        @include respond(phone) {
+            width: 49%;
+            padding: 2rem 0;
+        }
+
+        @include respond(small-phone) {
+            display: block;
+            width: 100%;
+            text-align: center;
+            padding: 2rem 0;
+        }
+        
         h2{
             font-weight: 800;
             font-size: 3.5rem;
             margin-bottom: 1rem;
+            @include respond(tab-port) {
+                font-size: 3rem;
+            }
         }
 
         p{
             color: lighten($DarkGrey1, 0.2);
+            @include respond(tab-port) {
+                font-size: 1.3rem;
+            }
         }
     }
 }

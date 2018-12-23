@@ -7,10 +7,27 @@
         margin-left: 2rem;
     }
     &__list-item{
-        width: 30%;
+        width: 29%;
         margin: 1.7rem;
         display: inline-block;
-        box-shadow: 0 0.4rem 0.4rem $LightGrey1
+        box-shadow: 0 0.4rem 0.4rem $LightGrey1;
+
+        @include respond(tab-land) {
+            width: 45%;
+        }
+
+        @include respond(tab-port) {
+            margin: 1.3rem;
+        }
+
+        @include respond(phone) {
+            margin: 1rem;
+        }
+
+        @include respond(small-phone) {
+            width: 90%;
+        }
+
     }
 
     &__image-container{
@@ -37,7 +54,7 @@
             }
         }
         &-title{
-            font-size: 2rem;
+            font-size: 1.5rem;
             padding: 1rem 0;
         }
     }
